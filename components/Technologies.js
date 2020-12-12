@@ -5,7 +5,7 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 32px 68px;
+  padding: 100px 32px 0;
 `;
 
 const Cards = styled.ul`

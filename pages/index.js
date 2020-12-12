@@ -6,6 +6,7 @@ import { Footer } from "../components/Footer";
 import { Portfolio } from "../components/Portfolio";
 import { Software } from "../components/Software";
 import { Technologies } from "../components/Technologies";
+import {Contact} from "../components/Contact";
 
 
 export default function Home() {
@@ -27,11 +28,13 @@ export default function Home() {
           href="/favicon-16x16.png"
         />
       </Head>
+      <Navigation />
       <Hero />
-      <Cards/>
-      <Technologies />
-      <Software />
-      <Portfolio />
+      <div id="about"><Cards/></div>    
+      <div id="technologies"><Technologies/></div>
+      <div id="software"><Software/></div>
+      <div id="portfolio"><Portfolio/></div>
+      <div id="contact"><Contact/></div>
       <Footer />
     </div>
   );

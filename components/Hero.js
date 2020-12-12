@@ -7,7 +7,6 @@ const Background = styled.div`
     height: 100vh;
     }
   background-color: #111;
-  margin-bottom: 100px;
 `;
 
 const Wrapper = styled.div`

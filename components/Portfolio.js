@@ -12,12 +12,12 @@ const Wrapper = styled.div`
     justify-content: space-around;
   }
   align-items: center;
-  padding: 100px 32px;
+  padding: 100px 32px 0;
 `;
 
 const SiteCardWrapper = styled.div`
   width: 325px;
-  height: 500px;
+  height: 450px;
   padding-bottom: 56px;
   @media (max-width: 714px) {
     width: 100%;
@@ -98,7 +98,7 @@ export const Portfolio = () => {
         title="Parafia Przytok"
         srcGit="https://github.com/mtjako/ParafiaPrzytok/"
         date="W BUDOWIE"
-        description="Strona informacyjna dla prafian z miejscowości Droszków, Przytok oraz Jany."
+        description="Strona informacyjna dla Parafii Wniebowzięcia Najświętszej Maryi Panny w Przytoku"
       />
       <SiteCard
         img="gminfo.png"
@@ -106,14 +106,14 @@ export const Portfolio = () => {
         src="https://gminazabor.info/droszkow/"
         srcGit="https://github.com/mtjako/GminaZaborINFO/"
         date="15/08/2020"
-        description="Strona informacyjna dla mieszkańców gminy Zabór. Relacje ze spotkań i najważniejszych wydarzeń związanych z gminą Zabór. Unikatowe zdjęcia, wywiady oraz filmy."
+        description="Strona informacyjna dla mieszkańców Gminy Zabór"
       />
       <SiteCard
         img="zzs.png"
         title="Zielonogórscy Sybiracy"
         src="https://zielonogorscysybiracy.pl/"
         date="01/03/2020"
-        description="Oficjalna strona Zielonogórskiego Związku Sybiraków. Strona stworzona w ramach współpracy technikum z Zielonogórskimi Sybirakami."
+        description="Oficjalna strona Zielonogórskiego Związku Sybiraków"
       />
     </Wrapper>
   );
