@@ -122,7 +122,7 @@ export const Portfolio = () => {
       <SiteCard
         img="kobelka.jpg"
         title="Droszkowski Belweder"
-        src="https://jakowlew.pl/sprzatanie.jpg"
+        src="https://jakowlew.pl/kobelka.jpg"
         date="09/09/2020"
         description="Plakat na występ teatralny organizowany przez SMD"
       />
