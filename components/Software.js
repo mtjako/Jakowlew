@@ -59,7 +59,7 @@ const Section = (props) => {
       </SectionTop>
       <SectionContent open={open}>
         {props.content.map((app) => (
-          <SectionApp>
+          <SectionApp key={app.title}>
             <img src={app.img} />
             <h4>{app.title}</h4>
           </SectionApp>
