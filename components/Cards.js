@@ -16,7 +16,7 @@ export const Cards = () => (
     <Card
       title="O mnie"
       image="/student.svg"
-      content="Minimalista, miłośnik nowych technologii oraz astronomii, w gminazjum złapał bakcyla do multimediów. Od tego czasu tworzy grafiki, plakaty, filmy, teksty, a obecnie głównie strony internetowe. Swój talent wykorzystuje w życiu loklanej społeczności dla której prowadzi internetową stronę informacyjną."
+      content="Minimalista oraz miłośnik nowych technologii, w gminazjum złapał bakcyla do multimediów. Od tego czasu tworzy grafiki, plakaty, filmy, teksty, a obecnie głównie strony internetowe. Swój talent wykorzystuje w życiu loklanej społeczności dla której prowadzi internetową stronę informacyjną."
     />
     <Card
       title="Technik cyfrowych procesów graficznych"

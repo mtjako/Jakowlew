@@ -147,6 +147,10 @@ export const Software = () => {
             title: "Adobe InDesign",
             img: "/apps/indesign.png",
           },
+          {
+            title: "Adobe Lightroom (w trakcie nauki)",
+            img: "/apps/lightroom.png",
+          },
         ]}
       />
 

@@ -25,15 +25,12 @@ const SiteCardWrapper = styled.div`
   }
   border: 4px solid #fff;
   position: relative;
-  @media (max-width: 1038px) {
-    margin: 0 0 32px 0;
-  }
-  &:last-child {
-    margin-bottom: 0;
-  }
+  margin: 0 0 32px 0;
   img {
     width: 100%;
     height: auto;
+    max-height: 210px;
+    object-fit: cover;
     filter: grayscale(25%);
   }
   h3 {
@@ -114,6 +111,27 @@ export const Portfolio = () => {
         src="https://zielonogorscysybiracy.pl/"
         date="01/03/2020"
         description="Oficjalna strona Zielonogórskiego Związku Sybiraków"
+      />
+      <SiteCard
+        img="sprzatanie.jpg"
+        title="Sprzątanie Droszkowa"
+        src="https://jakowlew.pl/sprzatanie.jpg"
+        date="07/03/2020"
+        description="Plakat na akcję sprzątania Droszkowa organizowaną przez sołectwo"
+      />
+      <SiteCard
+        img="kobelka.jpg"
+        title="Droszkowski Belweder"
+        src="https://jakowlew.pl/sprzatanie.jpg"
+        date="09/09/2020"
+        description="Plakat na występ teatralny organizowany przez SMD"
+      />
+            <SiteCard
+        img="youtube.jpg"
+        title="Gmina Zabór Rękodzielnictwem Słynie"
+        src="https://youtu.be/moUKXjmtKsA"
+        date="01/12/2020"
+        description="Film promujący rzeźbiarstwo w Gminie Zabór"
       />
     </Wrapper>
   );
