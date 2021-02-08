@@ -93,6 +93,7 @@ export const Portfolio = () => {
       <SiteCard
         img="pp.png"
         title="Parafia Przytok"
+        src="https://parafiaprzytok.pl/"
         srcGit="https://github.com/mtjako/ParafiaPrzytok/"
         date="01/02/2021"
         description="Strona informacyjna dla Parafii Wniebowzięcia Najświętszej Maryi Panny w Przytoku"
@@ -113,6 +114,20 @@ export const Portfolio = () => {
         description="Oficjalna strona Zielonogórskiego Związku Sybiraków"
       />
       <SiteCard
+        img="ytparafia.jpg"
+        title="Parafia Przytok z drona"
+        src="https://youtu.be/VK_pf6-qdKY"
+        date="01/12/2020"
+        description="Film promujący Kościoły Parafii Przytok"
+      />
+                  <SiteCard
+        img="youtube.jpg"
+        title="Gmina Zabór Rękodzielnictwem Słynie"
+        src="https://youtu.be/moUKXjmtKsA"
+        date="01/12/2020"
+        description="Film promujący rzeźbiarstwo w Gminie Zabór"
+      />
+      <SiteCard
         img="sprzatanie.jpg"
         title="Sprzątanie Droszkowa"
         src="https://jakowlew.pl/sprzatanie.jpg"
@@ -126,13 +141,7 @@ export const Portfolio = () => {
         date="09/09/2020"
         description="Plakat na występ teatralny organizowany przez SMD"
       />
-            <SiteCard
-        img="youtube.jpg"
-        title="Gmina Zabór Rękodzielnictwem Słynie"
-        src="https://youtu.be/moUKXjmtKsA"
-        date="01/12/2020"
-        description="Film promujący rzeźbiarstwo w Gminie Zabór"
-      />
+
     </Wrapper>
   );
 };
