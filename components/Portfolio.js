@@ -94,7 +94,7 @@ export const Portfolio = () => {
         img="pp.png"
         title="Parafia Przytok"
         srcGit="https://github.com/mtjako/ParafiaPrzytok/"
-        date="W BUDOWIE"
+        date="01/02/2021"
         description="Strona informacyjna dla Parafii Wniebowzięcia Najświętszej Maryi Panny w Przytoku"
       />
       <SiteCard
