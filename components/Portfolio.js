@@ -91,6 +91,14 @@ export const Portfolio = () => {
     <Wrapper>
       <Header title="Portfolio" />
       <SiteCard
+        img="droszkow.png"
+        title="Droszków"
+        src="https://droszkow.pl/"
+        srcGit="https://github.com/mtjako/droszkow/"
+        date="15/02/2021"
+        description="Strona informacyjna dla mieszkańców Droszkowa"
+      />
+      <SiteCard
         img="pp.png"
         title="Parafia Przytok"
         src="https://parafiaprzytok.pl/"
@@ -99,20 +107,19 @@ export const Portfolio = () => {
         description="Strona informacyjna dla Parafii Wniebowzięcia Najświętszej Maryi Panny w Przytoku"
       />
       <SiteCard
-        img="gminfo.png"
-        title="Gmina Zabór INFO"
-        src="https://gminazabor.info/droszkow/"
-        srcGit="https://github.com/mtjako/GminaZaborINFO/"
-        date="15/08/2020"
-        description="Strona informacyjna dla mieszkańców Gminy Zabór"
-      />
-      <SiteCard
         img="zzs.png"
         title="Zielonogórscy Sybiracy"
         src="https://zielonogorscysybiracy.pl/"
         date="01/03/2020"
         description="Oficjalna strona Zielonogórskiego Związku Sybiraków"
       />
+        <SiteCard
+          img="gminfo.png"
+          title="Gmina Zabór INFO"
+          srcGit="https://github.com/mtjako/GminaZaborINFO/"
+          date="15/08/2020"
+          description="Strona informacyjna dla mieszkańców Gminy Zabór"
+        />
       <SiteCard
         img="ytparafia.jpg"
         title="Parafia Przytok z drona"
@@ -140,6 +147,9 @@ export const Portfolio = () => {
         src="https://jakowlew.pl/kobelka.jpg"
         date="09/09/2020"
         description="Plakat na występ teatralny organizowany przez SMD"
+      />
+      <SiteCard
+        date="Już wkrótce..."
       />
 
     </Wrapper>
